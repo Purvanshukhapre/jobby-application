@@ -1,7 +1,7 @@
 .background-cont {
     height: 100vh;
     width: 100%;
-    background-image: url("src/assets/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
+    background-image: url("/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
     background-position: center;
     background-size: cover;
 }
