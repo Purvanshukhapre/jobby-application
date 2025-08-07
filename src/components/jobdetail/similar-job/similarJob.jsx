@@ -9,23 +9,11 @@ const SimilarJobs = (props)=>{
     const {similar} = props;
 
 
-useEffect(()=>{
-
-    const tryThis = ()=>{
-        console.log("hii")
-    }
-
-},[])
-
-const trythis2 = ()=>{
-    tryThis()
-}
-
     return(
 
         <div className='bg-light similar-jobs'>
 
-                <Link to={`/jobs/${similar.id}`} onClick={trythis2} className='link-tag'>
+                <Link to={`/jobs/${similar.id}`} className='link-tag'>
                         <li style={{listStyle:"none"}}>
                     <div className='d-flex'>
                         <img id='job-detail-icon' src={similar.company_logo_url}/>

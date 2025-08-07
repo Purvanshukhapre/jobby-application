@@ -52,7 +52,7 @@ const JobDetail = ()=>{
 
         OnFetchDetail();
 
-    },[])
+    },[id])
 
 
 
