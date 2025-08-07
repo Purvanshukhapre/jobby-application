@@ -1,0 +1,41 @@
+
+.onfetchprofile-cont{
+    width: 100%;
+    /* height: 100%; */
+    background-image: url("/src/assets/25332.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+@media (min-width:768px) {
+    #profile-img{
+        width: 150px !important;
+    }
+    .onfetchprofile-cont{
+        padding: 50px;
+        border-radius: 50px;
+    }
+    #profile-name{
+        font-size: 70px;
+        margin-top: 20px;
+    }
+    #profile-bio{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+}
+@media (min-width:1024px) {
+    .onfetchprofile-cont{
+        border-radius: 30px;
+        padding: 20px;
+    }
+    #profile-img{
+        width: 100px !important;
+    }
+    #profile-name{
+        font-size: 40px;
+    }
+    #profile-bio{
+        font-size: 20px;
+    }
+}

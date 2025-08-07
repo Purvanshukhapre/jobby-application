@@ -1,0 +1,70 @@
+.filterSec-cont{
+    width: 100%;
+    display: flex;
+}
+.emp-type{
+    width: 50%;
+    padding: 10px;
+}
+.emp-salary{
+    width: 50%;
+    padding: 10px;
+}
+@media (min-width:768px) {
+    .filterSec-cont{
+        padding: 20px;
+    }
+    .emp-type{
+        font-size: 35px;
+        padding: 30px !important;
+    }
+    .emp-salary{
+        font-size: 35px;
+        padding: 30px !important;
+    }
+    #emp{
+        font-size: larger;
+    }
+    #sal{
+        font-size: larger;
+        margin-top: 7px;
+    }
+    #ul-tag{
+        margin-top: 50px;
+    }
+}
+@media (min-width:1024px) {
+    .filterSec-cont{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 30px;
+        width: 80%;
+        padding: 5px;
+        padding-left: 10px;
+        background-color: white;
+    }
+    .emp-type{
+        width: 100%;
+        padding: 0px !important;
+        font-size: 20px !important;
+        margin-bottom: 0 !important;
+    }
+    .emp-salary{
+        width: 100%;
+        padding: 0px !important;
+        font-size: 20px !important;
+    }
+    #sal{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+     #ul-tag{
+        margin-top: 0px;
+    }
+    hr{
+        border: 1px solid black !important;
+    }
+    #list-item{
+        font-size: 18px !important;
+    }
+}

@@ -1,0 +1,23 @@
+.similar-jobs{
+    width: 35%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.link-tag{
+    color: black;
+}
+.link-tag:hover{
+    text-decoration: none;
+    color: black;
+}
+@media (min-width:768px) {
+    .similar-jobs{
+        width: 70%;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:1024px) {
+    .similar-jobs{
+        width: 40%;
+    }
+}
