@@ -123,9 +123,9 @@ const JobDetail = ()=>{
             <br /><br />
 
             <div className='container'>
-                <h4 className='text-white'>Similar Jobs :</h4>
+                <span style={{fontWeight:"bolder", backgroundColor:"white", padding:"5px", borderRadius:"2px", fontSize:"20px"}}>Similar Jobs :</span>
 
-                <div className='similar-job-cont'>
+                <div className='similar-job-cont mt-3'>
                         <ul className='similar-cont'>
                             {setDetail.similarJobs.map((e)=><SimilarJobs key={e.id} similar={e}/>)}
                         </ul>

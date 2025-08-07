@@ -1,6 +1,6 @@
 import './jobs.css';
 import Navbar from '../navbar/navbar';
-import JobsCard from './jobscard/jobsCards';
+import JobsCard from './jobscard/jobscards';
 import { useEffect, useState } from 'react';
 import Cookies from 'js-cookie';
 import Filter from './filter/filter';

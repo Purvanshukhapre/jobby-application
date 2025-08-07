@@ -1,5 +1,5 @@
 .similar-jobs{
-    width: 35%;
+    width: 100%;
     padding: 15px;
     border-radius: 10px;
 }
@@ -10,10 +10,16 @@
     text-decoration: none;
     color: black;
 }
+#job-detail-icon{
+    width: 60px !important;
+}
 @media (min-width:768px) {
     .similar-jobs{
         width: 70%;
         flex-wrap: wrap;
+    }
+    #job-detail-icon{
+        width: 80px !important;
     }
 }
 @media (min-width:1024px) {
