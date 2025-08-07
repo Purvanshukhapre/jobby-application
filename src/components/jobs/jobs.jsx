@@ -126,12 +126,12 @@ const Jobs =()=>{
                                              : alljobs.jobsFetch ? alljobs.jobsArr.length > 0 ? alljobs.jobsArr.map((e)=>(<JobsCard jobs={e} key={e.id}/>)) : 
                                              <div className='d-flex mt-4'>
 
-                                                    <img className='m-auto' src="src/assets/Vkl3WkPrrJ.gif" id='errorImg' />
+                                                    <img className='m-auto' src="/Vkl3WkPrrJ.gif" id='errorImg' />
 
                                              </div> : 
                                              <div className='d-flex mt-4'>
 
-                                                    <img className='m-auto' src="src/assets/Vkl3WkPrrJ.gif" id='errorImg' />
+                                                    <img className='m-auto' src="/Vkl3WkPrrJ.gif" id='errorImg' />
 
                                              </div>
                             }
